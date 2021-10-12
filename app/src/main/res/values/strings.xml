@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GoodHabits</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="type_array">
+        <item>Yes or No (Ex: Yes I did this today)</item>
+        <item>Write a number (Ex: I did this twice today)</item>
+    </string-array>
+    <string-array name="repeat_array">
+        <item>Everyday</item>
+        <item>Three days a week</item>
+        <item>X days a week (input below)</item>
+    </string-array>
+    <string-array name="reminder_array">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+</resources>

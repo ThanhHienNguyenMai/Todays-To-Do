@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Every Day"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Three Days a Week"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Custom Number of Days a Week"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="175dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="Enter number of days"
+            android:textSize="8dp"
+            android:inputType="textPersonName" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Custom Number of Days Per Custom Period"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="215dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="Enter number of days you want to complete the habit"
+            android:inputType="textPersonName"
+            android:textSize="8dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="215dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="Enter Period (amount of days to complete the habit)"
+            android:inputType="textPersonName"
+            android:textSize="8dp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

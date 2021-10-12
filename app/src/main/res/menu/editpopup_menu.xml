@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/editGoal"
+        android:title="Edit Goal Name"/>
+
+    <item android:id="@+id/deleteGoal"
+        android:title="Delete Goal"/>
+
+    <item android:id="@+id/goalColor"
+        android:title="Edit Goal Color"/>
+
+</menu>
